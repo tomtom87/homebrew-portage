@@ -7,8 +7,8 @@
 class Portage < Formula
   desc "One CLI command to buy from any store, native UCP or not"
   homepage "https://github.com/tomtom87/Portage"
-  url "https://rubygems.org/gems/portage-cli-0.9.0.gem"
-  sha256 "181a4cad44f6ebee1ff50b7d487980e889acfc095a07d3465b2a7f4bb9c11cf3"
+  url "https://rubygems.org/gems/portage-cli-0.10.0.gem"
+  sha256 "5e6937cc17d60a9043373dff178d4218f3cc0263a30db7898a62f9464ad4de0e"
   license "MIT"
 
   depends_on "ruby"
@@ -84,8 +84,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.10.0.gem"
-    sha256 "efe5bf4c962ad5078c7f46c130893ba4fd003621fc25a876a0ebd705444bad44"
+    url "https://rubygems.org/gems/portage-ucp-0.11.0.gem"
+    sha256 "63a7ce64113bd2bd1972af9897a729cb84deb36cb89f454273a57e2494b16648"
   end
 
   resource "portage-ucp-bigcommerce" do
