@@ -12,7 +12,11 @@
   <a href="https://github.com/tomtom87/Portage"><img src="https://img.shields.io/badge/source-tomtom87%2FPortage-black?logo=github" alt="source"></a>
 </p>
 
-Portage lets an AI agent find and buy things from real online stores for you, and you approve every payment. This tap installs the `portage` command-line tool with every first-party store adapter bundled, so there is nothing else to install.
+<p align="center">
+  <a href="https://github.com/tomtom87/Portage"><img src="https://raw.githubusercontent.com/tomtom87/Portage/main/docs/assets/portage-demo.gif" alt="portage buy searching The Light Yard over UCP and opening the checkout for a gold leaf bathroom wall light" width="900"></a>
+</p>
+
+Portage lets an AI agent find and buy things from real online stores for you, and you approve every payment. This tap installs the `portage` command-line tool with every first-party store adapter bundled, so there is nothing else to install. Source, issues and docs live in the main project, [tomtom87/Portage](https://github.com/tomtom87/Portage).
 
 ## Install
 
