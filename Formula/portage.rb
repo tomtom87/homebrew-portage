@@ -7,8 +7,8 @@
 class Portage < Formula
   desc "One CLI command to buy from any store, native UCP or not"
   homepage "https://github.com/tomtom87/Portage"
-  url "https://rubygems.org/gems/portage-cli-0.10.0.gem"
-  sha256 "5e6937cc17d60a9043373dff178d4218f3cc0263a30db7898a62f9464ad4de0e"
+  url "https://rubygems.org/gems/portage-cli-0.11.0.gem"
+  sha256 "14d77b6fe547e19a54f4aa42cabc29619eab4075cfb8889698104b9299114951"
   license "MIT"
 
   depends_on "ruby"
@@ -76,6 +76,11 @@ class Portage < Formula
   resource "mcp" do
     url "https://rubygems.org/gems/mcp-0.25.0.gem"
     sha256 "8acf3a5f3b60b6fd6e5d9b8ac5eb85ac504766976cbadaca182d2ffe7d795d98"
+  end
+
+  resource "mini_portile2" do
+    url "https://rubygems.org/gems/mini_portile2-2.8.9.gem"
+    sha256 "0cd7c7f824e010c072e33f68bc02d85a00aeb6fce05bb4819c03dfd3c140c289"
   end
 
   resource "net-http" do
@@ -186,6 +191,11 @@ class Portage < Formula
   resource "simpleidn" do
     url "https://rubygems.org/gems/simpleidn-0.3.0.gem"
     sha256 "12ca730bed2f3db04d11e9bfd1bca3e11fb37f55b21eb2e9793fb5814bf54d03"
+  end
+
+  resource "sqlite3" do
+    url "https://rubygems.org/gems/sqlite3-2.9.6.gem"
+    sha256 "956fe606956420d04ac7157d3ace620c8caba2135b2e05c76e483493da24d08e"
   end
 
   resource "tsort" do
