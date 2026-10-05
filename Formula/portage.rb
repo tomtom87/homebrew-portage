@@ -7,8 +7,8 @@
 class Portage < Formula
   desc "One CLI command to buy from any store, native UCP or not"
   homepage "https://github.com/tomtom87/Portage"
-  url "https://rubygems.org/gems/portage-cli-0.12.0.gem"
-  sha256 "160484a3a89fa2200530d8c25cb617015fde121dcc9d535530cd95f08e90812a"
+  url "https://rubygems.org/gems/portage-cli-0.13.0.gem"
+  sha256 "f9fb0eaf347ca0836377181ead273dd272f76106a401d950a9c67597cc829fb9"
   license "MIT"
 
   depends_on "ruby"
@@ -89,13 +89,13 @@ class Portage < Formula
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.11.0.gem"
-    sha256 "63a7ce64113bd2bd1972af9897a729cb84deb36cb89f454273a57e2494b16648"
+    url "https://rubygems.org/gems/portage-ucp-0.12.0.gem"
+    sha256 "193f98b588f40cc58224b9cdffc929e8d5611eb58454a310b4293fca4c0f2a3f"
   end
 
   resource "portage-ucp-bigcommerce" do
-    url "https://rubygems.org/gems/portage-ucp-bigcommerce-0.1.5.gem"
-    sha256 "6a7ec8d678e2919895f1738573c75104381f5dff869608a61a587e2e841a19c5"
+    url "https://rubygems.org/gems/portage-ucp-bigcommerce-0.2.0.gem"
+    sha256 "8d586753c3b6c48cdbf9d76e2131ddfeef2a191adc722aa649501be9049e56ce"
   end
 
   resource "portage-ucp-client" do
@@ -114,8 +114,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp-instagram" do
-    url "https://rubygems.org/gems/portage-ucp-instagram-0.1.5.gem"
-    sha256 "7aca0dc3beecab98a3947e75be205c878389fcd584956c6508c29e0f6fbf1484"
+    url "https://rubygems.org/gems/portage-ucp-instagram-0.2.0.gem"
+    sha256 "3d5f890f4f4b216d0e21b6776ccbfe450f12c80993cf9b7951714204e6f9e41d"
   end
 
   resource "portage-ucp-journal" do
@@ -124,13 +124,13 @@ class Portage < Formula
   end
 
   resource "portage-ucp-magento" do
-    url "https://rubygems.org/gems/portage-ucp-magento-0.1.5.gem"
-    sha256 "a9b4f37ba5a89af76ba8be7c04f741932fdca3eeac754b8489eee055872f4eab"
+    url "https://rubygems.org/gems/portage-ucp-magento-0.2.0.gem"
+    sha256 "bdb54e923adb52f88a25e2060506e1fc09795e5b5ae32161bd93f953b1de78df"
   end
 
   resource "portage-ucp-shopify" do
-    url "https://rubygems.org/gems/portage-ucp-shopify-0.5.1.gem"
-    sha256 "02368c8e1cf117bdd3a71ddd9a4bd1acc4fd12b1967e318396ae2cbb584855c0"
+    url "https://rubygems.org/gems/portage-ucp-shopify-0.6.0.gem"
+    sha256 "1f99d7811cc19776238a52e54a5d1c2a7325cc71c0e5adb80841d0f131388a6d"
   end
 
   resource "portage-ucp-webmcp" do
@@ -139,13 +139,13 @@ class Portage < Formula
   end
 
   resource "portage-ucp-wix" do
-    url "https://rubygems.org/gems/portage-ucp-wix-0.1.5.gem"
-    sha256 "1e90ebed0b0c1cadf5c104b237053577ba48279604b81c2931449b949b9200ae"
+    url "https://rubygems.org/gems/portage-ucp-wix-0.2.0.gem"
+    sha256 "9f4349435588e9902d5495cf0db521693bafc74ce165daafce64801282679ea1"
   end
 
   resource "portage-ucp-woocommerce" do
-    url "https://rubygems.org/gems/portage-ucp-woocommerce-0.2.2.gem"
-    sha256 "33786dee33a56c97ab2558b63c61b6498ab042b0d9f709b2e74b167941a91590"
+    url "https://rubygems.org/gems/portage-ucp-woocommerce-0.3.0.gem"
+    sha256 "895a3b24170e68f7275c4765501a0530caac78910bd75f5611361f393c927955"
   end
 
   resource "pp" do
