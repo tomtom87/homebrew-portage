@@ -7,8 +7,8 @@
 class Portage < Formula
   desc "One CLI command to buy from any store, native UCP or not"
   homepage "https://github.com/tomtom87/Portage"
-  url "https://rubygems.org/gems/portage-cli-0.13.0.gem"
-  sha256 "f9fb0eaf347ca0836377181ead273dd272f76106a401d950a9c67597cc829fb9"
+  url "https://rubygems.org/gems/portage-cli-0.13.1.gem"
+  sha256 "f6e928f148c60da604dd722ba78f069da38791685d9f2bf89c10cb0b8517673c"
   license "MIT"
 
   depends_on "ruby"
@@ -89,13 +89,13 @@ class Portage < Formula
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.12.0.gem"
-    sha256 "193f98b588f40cc58224b9cdffc929e8d5611eb58454a310b4293fca4c0f2a3f"
+    url "https://rubygems.org/gems/portage-ucp-0.13.0.gem"
+    sha256 "3a0e6da80c895e1d1892074457fa48fd13dc2909826155be1e76bd3c9c44a48e"
   end
 
   resource "portage-ucp-bigcommerce" do
-    url "https://rubygems.org/gems/portage-ucp-bigcommerce-0.2.0.gem"
-    sha256 "8d586753c3b6c48cdbf9d76e2131ddfeef2a191adc722aa649501be9049e56ce"
+    url "https://rubygems.org/gems/portage-ucp-bigcommerce-0.2.1.gem"
+    sha256 "0868bf0949c2ba09df0331dd22068687afdebc2fb65755fdfb9e9789158192b7"
   end
 
   resource "portage-ucp-client" do
@@ -124,13 +124,13 @@ class Portage < Formula
   end
 
   resource "portage-ucp-magento" do
-    url "https://rubygems.org/gems/portage-ucp-magento-0.2.0.gem"
-    sha256 "bdb54e923adb52f88a25e2060506e1fc09795e5b5ae32161bd93f953b1de78df"
+    url "https://rubygems.org/gems/portage-ucp-magento-0.2.1.gem"
+    sha256 "c118171e6be1e344c74e85a14a9802799bdf1ad6125b15e1864a866191a9086d"
   end
 
   resource "portage-ucp-shopify" do
-    url "https://rubygems.org/gems/portage-ucp-shopify-0.6.0.gem"
-    sha256 "1f99d7811cc19776238a52e54a5d1c2a7325cc71c0e5adb80841d0f131388a6d"
+    url "https://rubygems.org/gems/portage-ucp-shopify-0.6.1.gem"
+    sha256 "42056c08c34613869fb77c17f3a1cfad7d65c48a35ac8e9f2ebd965feb437f60"
   end
 
   resource "portage-ucp-webmcp" do
@@ -139,8 +139,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp-wix" do
-    url "https://rubygems.org/gems/portage-ucp-wix-0.2.0.gem"
-    sha256 "9f4349435588e9902d5495cf0db521693bafc74ce165daafce64801282679ea1"
+    url "https://rubygems.org/gems/portage-ucp-wix-0.2.1.gem"
+    sha256 "c2244c632eaf2e155d1cb9a1beabf84f42b069daa64d04a50340d8e0cbc8b754"
   end
 
   resource "portage-ucp-woocommerce" do
