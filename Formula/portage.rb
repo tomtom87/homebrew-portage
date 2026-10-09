@@ -84,13 +84,18 @@ class Portage < Formula
   end
 
   resource "net-http" do
-    url "https://rubygems.org/gems/net-http-0.9.1.gem"
-    sha256 "25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996"
+    url "https://rubygems.org/gems/net-http-0.10.0.gem"
+    sha256 "1a2ff6e37a05724973c43f2bf7bf105f59c36a4cd0a7e9b1c021a0a566987c27"
+  end
+
+  resource "net-protocol" do
+    url "https://rubygems.org/gems/net-protocol-0.4.0.gem"
+    sha256 "f9f90c8c6f64794a45160bf422177a336db12809de3beeeaa26b88fcd2e8c853"
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.13.0.gem"
-    sha256 "3a0e6da80c895e1d1892074457fa48fd13dc2909826155be1e76bd3c9c44a48e"
+    url "https://rubygems.org/gems/portage-ucp-0.14.0.gem"
+    sha256 "b06a26fe3a384432ebae264fc06ce41f41bab128f5c40be00e9848d359af5093"
   end
 
   resource "portage-ucp-bigcommerce" do
@@ -154,8 +159,8 @@ class Portage < Formula
   end
 
   resource "prettyprint" do
-    url "https://rubygems.org/gems/prettyprint-0.2.0.gem"
-    sha256 "2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193"
+    url "https://rubygems.org/gems/prettyprint-0.2.1.gem"
+    sha256 "d555d57ea6d7cf001d4774b693546a6bd88bec1e778ddffb5c60b68ceec4b7d4"
   end
 
   resource "prism" do
@@ -198,14 +203,19 @@ class Portage < Formula
     sha256 "956fe606956420d04ac7157d3ace620c8caba2135b2e05c76e483493da24d08e"
   end
 
+  resource "timeout" do
+    url "https://rubygems.org/gems/timeout-0.6.1.gem"
+    sha256 "78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb"
+  end
+
   resource "tsort" do
     url "https://rubygems.org/gems/tsort-0.2.0.gem"
     sha256 "9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f"
   end
 
   resource "uri" do
-    url "https://rubygems.org/gems/uri-1.1.1.gem"
-    sha256 "379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6"
+    url "https://rubygems.org/gems/uri-1.1.2.gem"
+    sha256 "89292e98eabbef6248b0a0ed5e7e398e152f83f17560023a6d94a7f492b169fb"
   end
 
   def install
