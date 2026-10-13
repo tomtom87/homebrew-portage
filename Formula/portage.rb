@@ -59,8 +59,8 @@ class Portage < Formula
   end
 
   resource "json" do
-    url "https://rubygems.org/gems/json-3.0.2.gem"
-    sha256 "8e6d7e7b11384c21230430cef90b71f14849a34a1f4452796670f7c981bd19df"
+    url "https://rubygems.org/gems/json-3.1.0.gem"
+    sha256 "3ce7ccf8fde58960177a3a756c31f292a4c1e1dedee884547096a5b0604e3bd8"
   end
 
   resource "json_schemer" do
@@ -94,8 +94,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.14.0.gem"
-    sha256 "b06a26fe3a384432ebae264fc06ce41f41bab128f5c40be00e9848d359af5093"
+    url "https://rubygems.org/gems/portage-ucp-0.15.0.gem"
+    sha256 "984d561eba1c4059655965f103376aebe4e1a97e7bc959ecf5f3120e7deb706d"
   end
 
   resource "portage-ucp-bigcommerce" do
@@ -134,8 +134,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp-shopify" do
-    url "https://rubygems.org/gems/portage-ucp-shopify-0.6.1.gem"
-    sha256 "42056c08c34613869fb77c17f3a1cfad7d65c48a35ac8e9f2ebd965feb437f60"
+    url "https://rubygems.org/gems/portage-ucp-shopify-0.7.0.gem"
+    sha256 "e644c41044e28d7212bc7f1b09f7ffed7c52204ba97ad9c94f31cdbf02ff96fb"
   end
 
   resource "portage-ucp-webmcp" do
