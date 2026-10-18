@@ -29,13 +29,13 @@ class Portage < Formula
   end
 
   resource "faraday" do
-    url "https://rubygems.org/gems/faraday-2.14.4.gem"
-    sha256 "9bb4408c44621b0dbaaaa39e5dbfc4dbe58cc6751b6eb94d16ae9e1f2f2fab6e"
+    url "https://rubygems.org/gems/faraday-2.15.0.gem"
+    sha256 "3be0eff0187ed913a1b4f679e9fcfe845b542cdd4f75b76cd6181a4ae1335fff"
   end
 
   resource "faraday-net_http" do
-    url "https://rubygems.org/gems/faraday-net_http-3.4.4.gem"
-    sha256 "0e78af151747ed1b00f33e25973b4bc220d7f16c00c39676817c8b12331eb588"
+    url "https://rubygems.org/gems/faraday-net_http-3.5.0.gem"
+    sha256 "2e7094c34e38754ee048cc3df47376f8657005d9375f8473bce1c3b526a22e36"
   end
 
   resource "hana" do
@@ -94,8 +94,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp" do
-    url "https://rubygems.org/gems/portage-ucp-0.15.0.gem"
-    sha256 "984d561eba1c4059655965f103376aebe4e1a97e7bc959ecf5f3120e7deb706d"
+    url "https://rubygems.org/gems/portage-ucp-0.15.1.gem"
+    sha256 "8fcb58435460f32a0e2d53eb36d03d3d51949377b98a879f1efdc9b088c9f090"
   end
 
   resource "portage-ucp-bigcommerce" do
@@ -199,8 +199,8 @@ class Portage < Formula
   end
 
   resource "sqlite3" do
-    url "https://rubygems.org/gems/sqlite3-2.9.6.gem"
-    sha256 "956fe606956420d04ac7157d3ace620c8caba2135b2e05c76e483493da24d08e"
+    url "https://rubygems.org/gems/sqlite3-2.10.0.gem"
+    sha256 "3fc6c4ac2249b1c54099e7b80e57afdd678e648c1f54de8ad3b4c775195c661a"
   end
 
   resource "timeout" do
