@@ -7,8 +7,8 @@
 class Portage < Formula
   desc "One CLI command to buy from any store, native UCP or not"
   homepage "https://github.com/tomtom87/Portage"
-  url "https://rubygems.org/gems/portage-cli-0.15.0.gem"
-  sha256 "d24986d62896a103ce4979614f6bcc2658b387c41eb3bdfea8e1266a76c6f00c"
+  url "https://rubygems.org/gems/portage-cli-0.16.0.gem"
+  sha256 "19e663f3d0daddfd150015b94486171c92685eeeb166bb785b2c11a4d0d19d39"
   license "MIT"
 
   depends_on "ruby"
@@ -29,8 +29,8 @@ class Portage < Formula
   end
 
   resource "faraday" do
-    url "https://rubygems.org/gems/faraday-2.15.0.gem"
-    sha256 "3be0eff0187ed913a1b4f679e9fcfe845b542cdd4f75b76cd6181a4ae1335fff"
+    url "https://rubygems.org/gems/faraday-2.15.1.gem"
+    sha256 "8708154deda739c5e86cc42b74960e23e8491fce0eba9e11639a6a34b1ac288f"
   end
 
   resource "faraday-net_http" do
@@ -44,13 +44,13 @@ class Portage < Formula
   end
 
   resource "io-console" do
-    url "https://rubygems.org/gems/io-console-0.9.4.gem"
-    sha256 "a403304f32928ee85e56d457b4612ca43f2703b561a3258844992bd24085fbb1"
+    url "https://rubygems.org/gems/io-console-0.9.5.gem"
+    sha256 "83dd9bbf4c4680416629245b39cd4212eb5f4d9a4ea91804870c1f6b846414d5"
   end
 
   resource "irb" do
-    url "https://rubygems.org/gems/irb-1.18.0.gem"
-    sha256 "de9454a0703a54704b9811a5ef31a60c86949fbf4013fcf244fabc7c775248e3"
+    url "https://rubygems.org/gems/irb-1.19.0.gem"
+    sha256 "55ee56acbdd6c9fe06a2e6909f46a24e5c41f45f16906bab04e8049cf46f1d27"
   end
 
   resource "jar-dependencies" do
@@ -74,8 +74,8 @@ class Portage < Formula
   end
 
   resource "mcp" do
-    url "https://rubygems.org/gems/mcp-1.8.1.gem"
-    sha256 "1b81902c1edf01775a4bc080af68e84909e2dfe91fffe381f86e5075847ca284"
+    url "https://rubygems.org/gems/mcp-1.10.0.gem"
+    sha256 "0ced6143750f865330fdf3e37fc82309a9bcb175d8e9ed435c89599967d35e60"
   end
 
   resource "mini_portile2" do
@@ -104,8 +104,8 @@ class Portage < Formula
   end
 
   resource "portage-ucp-client" do
-    url "https://rubygems.org/gems/portage-ucp-client-0.7.0.gem"
-    sha256 "a9355f295cd0c3b6011ed80c30fdf1365f15923e3d95b1df9726bdf73b836979"
+    url "https://rubygems.org/gems/portage-ucp-client-0.8.0.gem"
+    sha256 "80c7cc382e3add4c94bd7ec98fe432a05724d1a2f3f1ea6cefa15ceec222c6c4"
   end
 
   resource "portage-ucp-decision" do
@@ -164,13 +164,13 @@ class Portage < Formula
   end
 
   resource "prism" do
-    url "https://rubygems.org/gems/prism-2.0.0.gem"
-    sha256 "fd551446f0c6ca71455ef8d1d40bd2ca1538044834fa22df8837e5095f3a5a39"
+    url "https://rubygems.org/gems/prism-2.1.0.gem"
+    sha256 "1c0a7c6dea0e93183390fb123f007564dbe663198e2f86ad87204151147601f3"
   end
 
   resource "rack" do
-    url "https://rubygems.org/gems/rack-3.2.7.gem"
-    sha256 "93e13e1c24f93556671d85d2d79fa228c3485815c50d7e2f265b5330c6528fb7"
+    url "https://rubygems.org/gems/rack-3.2.8.gem"
+    sha256 "1fecc85e463ebc7a2a945fff829ffcd549babeb1556384796fad946c28dc4ec7"
   end
 
   resource "rbs" do
@@ -184,8 +184,8 @@ class Portage < Formula
   end
 
   resource "regexp_parser" do
-    url "https://rubygems.org/gems/regexp_parser-2.13.1.gem"
-    sha256 "5aedb6b7c35688f51e86eef17a15374dfd287c83f4ca644b2c5f3ec50a33b44b"
+    url "https://rubygems.org/gems/regexp_parser-2.13.4.gem"
+    sha256 "1d0547814f57e6f00946957bd0ca201bc42f42cfb08eee89df60998aedcd8a3b"
   end
 
   resource "reline" do
@@ -199,8 +199,8 @@ class Portage < Formula
   end
 
   resource "sqlite3" do
-    url "https://rubygems.org/gems/sqlite3-2.10.1.gem"
-    sha256 "7ae52c91f5b766882cf44d2dbd26d2dbbb841606f0ec78df3be019bd07b13ff4"
+    url "https://rubygems.org/gems/sqlite3-2.10.2.gem"
+    sha256 "f1ea68cd3287f8a49f39a088ac9e4bd0ef4e7f394c3d4a60dd4c7e44b0566964"
   end
 
   resource "timeout" do
